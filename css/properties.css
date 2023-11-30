@@ -1,0 +1,38 @@
+#header{
+   display: flex;
+   justify-content: space-evenly;
+   font-size: larger;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container{
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 50%;
+    outline: dashed 1px black;
+    gap:5px;
+}
+
+#side{
+    width:8em;
+    height:8em;
+}
+
+img {
+    height:150%;
+    width:150%;
+}
+
+body {
+    background-image: url("../img/background.png");
+}
